@@ -41,13 +41,13 @@ source("func/SplitNights.R")# helper functions for time-segmentation and data fi
 ####b) import from SQL ####
 
 # Functions to interact with databases
-# --- Database Connection 
+# --- Database Connection #Need to change acordingly:
 dbc <- dbConnect(RMySQL::MySQL(),
-                 user = 'roatlasharod',            # username 
-                 password = 'roatlasHarodOrr5678#',# password
-                 host = '132.66.79.21',            # host ip address
-                 port=5900,                        # port Number
-                 dbname='harod')                   # name of data base
+                 user = XXXX           # username 
+                 password = 'XXXX       ,# password
+                 host = XXXXX,            # host ip address
+                 port=XXXXX,                        # port Number
+                 dbname=XXXXX)                   # name of data base
 
 
 # --- Examine the tables contained in the database 
